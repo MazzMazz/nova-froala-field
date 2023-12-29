@@ -6,7 +6,7 @@ use Froala\Nova\Froala;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 
-final readonly class DeleteAttachments
+final class DeleteAttachments
 {
     public function __construct(public Froala $field) {}
 
