@@ -7,7 +7,7 @@ use Illuminate\Http\Response;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
-final readonly class PendingAttachmentController extends Controller
+final class PendingAttachmentController extends Controller
 {
     /** @throws NotFoundHttpException */
     public function store(NovaRequest $request): JsonResponse
