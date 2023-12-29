@@ -7,7 +7,7 @@ use Illuminate\Http\Response;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
-final readonly class ImageManagerController extends Controller
+final class ImageManagerController extends Controller
 {
     /** @throws NotFoundHttpException */
     public function index(NovaRequest $request): JsonResponse
