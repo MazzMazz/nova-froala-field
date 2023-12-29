@@ -4,7 +4,7 @@ namespace Froala\Nova\Attachments;
 
 use Illuminate\Http\Request;
 
-final readonly class DiscardPendingAttachments
+final class DiscardPendingAttachments
 {
     public function __invoke(Request $request): void
     {
