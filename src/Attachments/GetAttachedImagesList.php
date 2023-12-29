@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
 
-final readonly class GetAttachedImagesList
+final class GetAttachedImagesList
 {
     public function __construct(public Froala $field) {}
 
