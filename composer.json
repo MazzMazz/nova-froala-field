@@ -1,5 +1,5 @@
 {
-    "name": "dive-be/nova-froala-field",
+    "name": "mediazz/nova-froala-field",
     "description": "A Laravel Nova Froala WYSIWYG Editor Field.",
     "license": "MIT",
     "keywords": [
