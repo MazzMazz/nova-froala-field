@@ -6,7 +6,7 @@ use Froala\Nova\Froala;
 use Illuminate\Http\Request;
 use Spatie\ImageOptimizer\OptimizerChainFactory;
 
-final readonly class StorePendingAttachment
+final class StorePendingAttachment
 {
     public function __construct(public Froala $field) {}
 
