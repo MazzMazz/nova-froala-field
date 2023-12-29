@@ -18,7 +18,7 @@
     ],
     "homepage": "https://github.com/dive-be/nova-froala-field",
     "require": {
-        "php": "^8.2",
+        "php": "^8.1",
         "laravel/nova": "^4.12",
         "league/flysystem": "^3.0",
         "nova-kit/nova-packages-tool": "^1.11",
