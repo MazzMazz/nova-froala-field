@@ -4,7 +4,7 @@ namespace Froala\Nova\Attachments;
 
 use Illuminate\Http\Request;
 
-final readonly class DetachAttachment
+final class DetachAttachment
 {
     public function __invoke(Request $request): void
     {
