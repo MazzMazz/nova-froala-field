@@ -6,7 +6,7 @@ use Froala\Nova\Froala;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
-abstract readonly class Controller
+abstract class Controller
 {
     /** @throws NotFoundHttpException */
     protected function findFieldOrFail(NovaRequest $request): Froala
